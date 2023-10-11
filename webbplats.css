@@ -1,0 +1,29 @@
+.wrapper{
+    display:grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer"
+}
+
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+nav{
+    grid-area: nav;
+    background-color: blue;
+}
+
+main{
+    grid-area: main;
+    background-color: blueviolet;
+}
+
+footer{
+    grid-area: footer;
+    background-color: brown;
+}
