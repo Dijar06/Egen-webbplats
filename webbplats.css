@@ -1,11 +1,16 @@
+body{
+    background-color: rgb(181, 253, 255);
+}
+
 .wrapper{
     display: grid;
-    grid-template-rows: 100px 100px auto 100px;
+    grid-template-rows: 100px 70px auto 50px;
     grid-template-areas:
     "header"
     "nav" 
     "main"
-    "footer"
+    "footer";
+    height: 97vh;
 }
 
 header{
@@ -20,7 +25,13 @@ nav{
 
 nav > ul {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav li {
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px
 }
 
 main{
@@ -46,4 +57,12 @@ tr:nth-child(odd){
 
 td{
     text-align: right;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    color:white;
 }
