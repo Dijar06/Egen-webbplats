@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(181, 253, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .wrapper{
@@ -15,12 +15,12 @@ body{
 
 header{
     grid-area: header;
-    background-color: aqua;
+    background-color: orange;
 }
 
 nav{
     grid-area: nav;
-    background-color: blue;
+    background-color: white;
 }
 
 nav > ul {
@@ -36,14 +36,14 @@ nav li {
 
 main{
     grid-area: main;
-    background-color: blueviolet;
+    background-color: orange;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 footer{
     grid-area: footer;
-    background-color: brown;
+    background-color: white;
 }
 
 
@@ -64,5 +64,17 @@ h1{
 }
 
 a{
-    color:white;
+    color:orange;
+}
+
+table,td, th{
+    height:30px;
+    width:100px;
+}
+table{
+    margin: auto;
+}
+
+h2{
+    text-align: center;
 }
