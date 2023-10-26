@@ -1,33 +1,39 @@
-<!DOCTYPE html> <!--Sidan ska handla om mig själv-->
-<html lang="sv">
-<head>
-    <title>Egen webbplats</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="webbplats.css" rel="stylesheet">
+<!DOCTYPE html> <!--HTML5 dokument-->
+<html lang="sv"> <!--HTML öppning med språk svenska-->
+<head> <!--Metadata-->
+    <title>Egen webbplats</title> <!--Sidans titel-->
+    <meta charset="UTF-8"> <!--Användning av specialtecken-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Responsiv webbdesign-->
+    <link href="webbplats.css" rel="stylesheet"> <!--Extern CSS-->
 </head>
-<body id="index">
-    <div class="wrapper">
-        <header>
-            <h1>Min egna webbplats</h1>
+<body> <!--Sidan ska handla om mig själv-->
+    <div class="wrapper"> <!--Container, grid layout-->
+        <header> <!--Sidhuvud-->
+            <h1>Min egna webbplats</h1> <!--Rubrik-->
         </header>
-        <nav>
-            <ul>
-                <li><a href="index2.html">Recept</a></li>
-                <li><a href="index.html">Om mig</a></li>
-                <li><a href="index3.html">Albanien statistik</a></li>
+        <nav> <!--Globala menyn-->
+            <ul> <!--Oordnad lista-->
+                <li><a href="index2.html">Favoritrecept</a></li> <!--Klickbar text till ett annat html dokument-->
+                <li><a href="index.html">Om mig</a></li> <!--Nuvarande sida-->
+                <li><a href="index3.html">Albanien statistik</a></li> <!--Klickbar text till ett annat html dokument-->
             </ul>
         </nav>
-        <main>
-            <section>
-                <p>Hej</p>
+        <main> <!--Huvudinnehåll-->
+            <section> <!--Avdelning 1-->
+                <h3>Lite om mig själv!</h3>
+                <p>fredag 27 oktoborer 2023</p>
+                <p>Hejsan! Jag tänkte berätta lite om mig själv. Jag är en 16 årig kille som gjort den här sidan med kunskaper jag fått av vår lärare David. Jag har 2 favoritrecept som du kan hitta i globalmenyn när du trycker på "Favoritrecept". Jag har även lagt till statistik för albaniens herrlag under året 2022-2023 som du kan hitta när du trycker på "Albanien statistik" på den globala menyn.</p>
+                <p>Något jag gillar göra att att gymma någon gång om året och jag älskar skolan så så så mycket, no joke.</p>
             </section>
-            <section>
-                <p>Hej igen</p>
+            <section> <!--Avdelning 2-->
+                <p>
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEhUSEREVFRIVFRcXFxUXFhUWFhUTFRUWFhUXFRUYHSggGBolGxcVITEhJSorLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0lHyYtLS4tLy0uLS0tLS0tLS0tLy0tLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLS0tLS0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYCAwQHAQj/xABGEAABAwICBgYHBQYFAwUAAAABAAIDBBEFIQYSMUFRYRMicYGRoQcyQlKxwdEUYnKCkiMzc6Ky8ENTwtLhFpPxJFRjs+L/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwQBAgUG/8QANREAAgECAwMLBAIBBQAAAAAAAAECAxEEITESQVEFEyJhcYGRobHR8BQyweFCUiMzNGJy8f/aAAwDAQACEQMRAD8A9xREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEUZV4vGw6ou93Bu7tOwLRE6olz1hEzkNZ3iVVnjKUZbCe1Lgs/F6LvaJ44eVtqWS6/bXyJkrS+pYNr2jvC4hhrPbLpD99xI/Ts8luZBGPVjYOxrR8lr9U+CXff8JebDhTW9vuS/LfkbRWxnZIz9QW5rwdhB71oIb7o8AtRpYj/AIbQeIAB8RmixXZ6e5q4w614P2O9FH/ZyPUleOROu3v1s/NDVyM/eMu3c6O7h+Zu0d1xzUyrxevuv12tJDmr/a79Wj/b6k2yQRaoJmvGsxwcDvButqlTurojaadmERFkwEREAREQBERAEREAREQBERAEREAREQBERAERc9ZUtiaXO2DxJ3ALDairvQyk27LU+1NS2Jus82Hx5BQktRJUGwu1nuj1iOLjuC1ND53h79t+q3c3++Kn6anDBYd54qhTk8YnJ3VPRWyc7a3eqitMrNvsJ5NUXsxs5b3qo9S3X6/DcyNgwgtGWq3uv5rp6GZuxzXDgQR5j6KRWJKtQw1CCtGEV3L118yvKUpO8pNka2rz1XAtdwPyO8LPpgssRgD28CMwd4KjKeo1sj6w2rj8p4edBc7T+3Rp7uGfB9efW7k9F7WT1JHpBxR0gGZK5C5ddBDfru7hwUHJ1OeKk3LKK1fbol19e42qvYWWp9a2R2wBo55nwGxZdBKNj297cvIruXwr0UKVOGUYr1fi7sq5vVkBVtcx2uP2T/ebnE/+I3d+LzXXhuKiQ9HINSUbWnY4cWHeFISAEWOxVHGKTUcG3IG2Nw2scMy2/DaR3jeoa0XSi6lJaZuO5re1wa14NbrlmlNVGqdXsT3rhfit1t27gXNFA4BjPS/spMpQMjueOI5qeUlGtCtBTg8maVqMqU3CXzrQREUpEEREAREQBERAEREAREQBERAEREAREQGLjYZ7FXJpTUSa3+G3Jg4/eXbj9QQBE3a/byYNvjsWmmisAAvPcsYpt8xHTV/hfnwL+HjsQ23q9Ozj3nTh7buJ90W7zmfkpQqOw13XkHMf0tXe5y7tCGxRpxX9I+cU35nOcruTfF+Tt+CPrsdpoQ/XniDowS5uu3WFm61tW972X5/oNPsWp3/am1H2iAvcXQuIe3UvfVvbWZtABHnsVhxPRx9TWYxALfaZS0xa2V2P1Hts7gfV7jwVT0X0NraZ0stVC6GHopGOLntbrFwysL9YXHersKKcox1v5FepX2VJ8PM/QeA4tFX0sdVETqSMDgDa7TmHNdbeHAg9iisXk6KVrxlc2PfkoX0Th0OFxtd7b5Hs3WYZTqkDgQLjk4Lp0lm1tQb3SNHi4KniKalSnB6NNeRcpu04vrJ4P1i0e8fIZqwMFhkqrTu1ZIr8/krLHIqfJMNnCR4tyb7bteiRtiH/AJGQWGaY0s9TVU4ka00rmsc5zg0OdY6+rfc13VPMHkqDph6TJ6XENelcyooI2MZMxuq4GQlxcWSDMOAtvtxCplVo3UTDEIIxrVIq3lzNbVLmte517E9bWBaQeFs126G6H1FJS101dH0Mb4SxrX+trNOtraoOQGWfMldmNBbcYvel3XKMsQlGTX8Xoe9UNayojjljdrRyNa9ruLXC4PgVG6Uw/syRtHWHa03+ijPR8x0OG0jX3DhC02ORAcS5oIOywICkcfrA6M23Aqre0kWbXRXpxfVkjNnCzmnhdXDAsTFTEHbHjJ7eDh8t6pVFLeNo4NaPAALfgtd9mqW3/dyWYeFz6p8cu9eYwNf6fESpfxba8HZP8M79aj9RQ/5JXX5Xfu6z0JERenOCEREAREQBERAEREAREQBERAEREARFzV83Rxvf7rSfJYbSV2ZjFyaS3kD0nSzPk3X1W9jcvjdS1HDfNROGR2YOxWGFtmgLyuDh9TXlUn2970RfxUtl7MezuWRG1B6KYO9h41TycNniPgut8q+V8QewtOz57iFBsri3qOOY38uYXqMPWhNc3/KK04rc12aPqVzmyg09rc/U5tJcAjqnsnZI6CqjBaydgGtqOvdjwfWbmeBFzYi5vCT6OTzlora4yxtaWlkMZh6RptdsrtdxLTqjIW2bQpySrWnpCVZVSUVZM1dOMmm1mdOQADQGtaAGgCwAAsABuAFlAl3T1bGDNsXXf22LWDxJP5VjjeNthHRsOvK7INHxPAc12aN0nRRknOR51nu4uPDkNgXLx2JjSpu+rL1Ck30iUqx1dYbWHW7ht8rqUpasOaDdcIUc+U0zv/iP8h4HkubyRjkm6M97uu16r28OBtiKN+kjLSHRxtRIKiGZ1PUdXWc0azJRGbsE0dxr6p2G4PaAAo6TRuSdwOIVf2iNrmuEDYxFEXMFmmQFzi7acri++4yUx9quLg3C0vqCV6ZVZJWTyOe6UdraazJB05OQUPpFPaMMHrvy7Af7JXS6vZE3Wc62/tUCJzK8yO2nYOAVPEVlRhtvXcuL9lqyzRpOpLZ3bzZA0sy3LCvZrNK7NS7Vyy7F46StI9DSlndF60Zrunp43n1gNV34m5FS6pPo8qs5oeBa8fmBB/p81dl7DC1Ocoxk+BwsZTVOvKK0vfxz/QREU5WCIiAIiIAiIgCIiAIiID4TZa3mwuT52WNU+2r+L5FclbUZLNsrmt87GzD6zpC9p9Zlu9pvb4Fc+krrQO5uaPFwURh1XqVTb7JAWd+1vmLfmUnpV+4H8Rn9Sq4t2oT7H6FrCr/PDtXqaaAeqOxTpUDRPtYrgrfSBRQv1JHPFzYHUcQT3ArhcmTjGMovVtbm93UTVqU5u8VdLUsVXINm9QWJUIkHA7iMiF0Nr2PYJQTqOFw4ggWPMhG1LHbHA9hCpYmrV5zbknHhk0bU45ZZlVqqWqZ6jwR95ufiFHTUtdJk6UNH3R9VentBWvogpVytiLW2vJX8bGyp0+BVcJ0abGdZ13OO0nMqyQw6oW7VCFUalWVR3k7k+1c+LXKwOFisyViXKO4K/WYVJGSYJCz7u1vhu7lFVFRWDIub2gH6q5PIXFUQtK6FHlTEQWztZddn6o1dOnJ9JFKeyR5u8knn9FNUbLNBK6poGjgsNdpGq03PAZrZ1513d3b8SZKMVZKyJCHNvco+Zcc2kkNORE/W172A1T5m1l0CoEjdYbCoqtOcbOSaJKObdjt0GltWlvvRO/lLfqvRJHhoJOwAnwXmmhh/9eP4b/8ASvQMUls0N3uPkMz8h3r0nJv+3Xazn8qf6y/6r2D5Ta5JvyNl8oKzXJYfWAuObf8Aj5hR1XPYKNweqJrGDi14PZq3+ICuN5lDcXJERbmoREQBERAEREAREQHLiA6hPukO7ht8rqHrqgWVhIuqxWUmRHAkdwJAW6+1o1a6SZXKyr/ax23Sxm/Y8K6aUsvTvPu2d+k3KqFZhmttVkwyu+0wPhk/ehhB++21tcfPn2hV6kduEo8U0T0p7E4y4M5KGTWZ3fJeVekoPpjDNHYESEZgEHqk2IO0ZL0PBZyBqna02PaDYqvek/DOmo5S0XdGRIOxpu7+XWXk8HPmsRFvLP8AR1qkbKceJlot6U6OojbT1rRTusG62ZhNtnWGbPzZcyrh/wBM0lS0SROa9pzDmODmkciMl+XV14ZitRSu1qaeSF17/s3uaCfvAZO717NVpfPY4nMpZo/SLtB2+zLI3scVpfoXKPVqpR+Z31XlGF+mLFIbCR0U4H+ZHZx/NGW/BWih9O4/x6AjnHMD/K5ot4qKUIS1S+dpupTW9lpfolVDZVyd5P1Wl2i9buqnea5qf034c714qlnaxjv6XldjPTHhJ2ySjthf8go/pqX9V4I252pxZpOjdb/7l3mvn/TlZvnd4lbz6YMI/wA2X/sSfRcs/pmwweq2d3ZFb+oha/S0v6ryNuenxMjo3U75nfqd9Vg7RuXe9x/M76qIrPTfT2PRUUrju13sYP5dZV3EvTLWSZQ08MXM60p/0jyWVh4LSw52ZcxgBacxdRGIaRUuHk3ka6W1ujZ13X52Nm95C80xbS2uqriaqkLT7DT0bOzVZa47bqDAUmzGxrdstk2OyYhWR9UMaX5NGZNgTdx7tgXp4h6OJoXnHotwwzVTpCOrEz+d5sPIO8V6TjMoB1eA8yuBypV2qyprcv2dTAro99/wdno/ZrVj3e5Fb9Tv/wAlW3G5dWVn4D8R9PJQPo5hDIpqh2Qc/VB4tZl/USpuWIyuL3DM5AcGjYP74rsYGGzQj4lTlGW1iGuFl4LPzI2vqQtGiMRkqnSezGw/qebDyDlhi0Vrqc0MpgymDvakc5x7iWjyaPFWHnIp7ifREW5qEREAREQBERAFqlna31nAfHwWMrrnVBtlc/Jc7qBpN7uB5H4jes2NdrOxmK1pNmjvOQ+qwliFjne9z3nNc9ZQsA9Z1+74WUVJVuZZvSGwy2Nv42TasZ2bnRUQKHqtaNwkjNntNwfkeIOwruhxEF2o47dhy2jcbf3ktOIDIqNu5uiIdVNM/SNFmS3dq+7I3KRvjY8w4KSaWytIOeViOIKq877mSJuUhIkh4GRoIcw83tIA5tC+6P42CQ7dscN/PLiF53lHCOMnOOjz9zr0J87HrWXz5uPJNKMGdRVMkBHVBuw8Y3eqe7MdrSohe86f6KDEYA+K3TxgmM7ng7WE8DlY7iBzXhs0DmOLXNLXNJDmkWII2gjiurgMUsRTz+5ZP37/AFuUK0NmWWnzI0IBfYuqjoXSusNm8qfhwcAbFYnUjHJljC4CrXW0llx9iuNpzvW0U4U+7C+S1OwsqPnr7y8uTXHcQxgC1Pp+CmX4a4LnfSOG5ZVTrI54PjEiHMIXxd8tOeC4pY7KaMrnPq0HDQxQlfLr0L0W6HOqZG1czT0DHXjaR+9kGw82NPiRyKjr140KbnL/ANfD527iKEXJ2Rc9A8E+wUQMgtI/9rJxBIFm9zQB23XFXzl+YHXe4ADiXGwHwU3pdiAaOiadmbjz4dyr+jDxJL0rr6rXFkYHtTEWLvwsBuTxIG1cPDUJV5Oc9ZPwOtCcaENt/OHv2Ho+C0wZFHEPUjH6n+04997f8qWcLBaKBoDQttS/YBtOS9KopKyOHKTk7vVkFirbqVwF8kcLWlgLBexBs6xJOYO3bxR+FNdtcb930Xf0Aa3Nx8h8ljZs7mNpM2srGHfY8HZeexdKrlXOL2LnW4ZD4DNc8OMCEjPqX6w5byOaxtIzsstaIi2MBERAEREBA4xif2Z5c8HozbrWNgbbCdyU2kEL9jx4qQ1mlztbMg5X3ZLcdU7QCpb5WsV7ZkPiOINtfWFlUaisdI60bHP/AAgkeOxegVIY1vqt8AoCqrNU5KCepZhoVmtp6iLVkdHZodnmCWixzIB2KQmrNZl+Syrq+7SDwVZgqzq6v92WqNmcGKy3kyNnWJBG0EEEEd9l349hjo2xYjC39jUNa6Zo2RTH1z+EuuO3tUPV5zA8j8l6poHE2XDmMkAc0mZpBzBb00mSjnTVROLJqVV0mpL4itYBjAADXG7Tv4f8Ln000HixAdNCRHUWyd7Mg3CS3k7aOexNIdGZKBxfHd1KT2mLk77vPxWWE4w5mw3bw+i81Wo1cNV2oZNef6OtOEa0NuO/54lHpcDfS/s5WFrh619/MHYR2LtZTgr0sTQVTdV4B+67aDyP0UVXaHtdnDJblJs7iBf4qaPKCk/8is/L39TrYTH0YRVOa2beHuvTrRXsP0ckmF2FveVun0OqG52b4hbn4NWw+oHdsbrjwFj5LnqJK4ZObP3sk+iuRr0WtfNFm9Scr06kGuy79SFrMPdGbOtdcEtOFMSUk7tscpP4Hn5LKPAKt+ynkH4mlnxssOtBb14omkqaXTa8UvyVmaiCiKyi4DM5AbydwAXqNHoHM/8AfSNY3g3ru+QHmrLh2j9HQdew1/8AMfZ0n5R7PcAo3yhCP29J9Wnjp6nHxdbDvox6T6jzTQj0YSTOE1c0si2th2Pk/ie43ltPJenYpiUdMzoodUOA1erYNjaBazbZXt4LkxXSIkFsQ1Rvd7R+irEcUtTIIoWlzzt4NHFx3BVXOriKilPN7ktF2e+pz6WGUVeWS+anK+nlrZhTw5vec3bmN3uKtUGGRwOkYzKOma2Jp4uu10rjzLyR+UK3aK6Nx0Mdh1pXZvfvJ4DgFWsQYTDUcXTv/wDvK9Bh6HNRz1OficQqsujovPrLJQzDVC+TOc9w1Bcg3tyzHzVZpsTLGgEG6n9HKu4cXCxJ38N3ndXEUmzqdWOYeu1ze648Rks6nEWltw4eKkWygrixMstbVb4BZk8jWOpScXxljT6w8VAz46151Guu47hmrbO+MHJjR+ULhqJo/cblyCqMsI9EoP3Ud9uo3+kLoUfgMuvTQuO+NvkLKQVgiCIiAIiICvY5HOx5fCzpAQC5oIBuMsr7crLhjxSoHrUsw/IT/TdWHEpejDX7gbHkHbD4gDvWluJt4qeLbiQSXSIOrxZ+rnDMO2KT/aoCaaaU9SNwHFwLR55+Su9TiAI2qv4jXAKCoTU9CMjw4WvK7WPAZD/lQ7ohdw3Am3YpalL6k9TJm952d3vFacVo2wkapJB2348VGSlYlj/a9jT8QvXtC6UxUUDTtLS//uOL/wDUqDo/gTqyXYeiuNd27VG1oPvHZy2r1djQBYCwGwcltFGjZ8ewOBBFwdoKo+O6EEEyUhA3mI+qfwH2ezZ2K+ItatKFWOzJElGvOk7wfszxvp3Ru1JWujeNzhbw4jmFJ0mLyN2OuOBzXouIYdFUN1Zo2vHMbOw7lVq7QJu2nmcz7rus3x2+a4tfkqX8M/U6tPHUaitPLzXv5HNFj59poPYV0DH2e6fEKHqdF62PYxsg+44X8HWXG+gq2+tSy9zb/C650sDUjrB+BOqdGf2tPsf7LIcdZwd5LTJpANzPEqvilqTsppf0EfFb4cDrpNkDm83FoHxusRwU75RfgxzNKOba8V7nZU47K7YdUcvqoSrrd7nXKsdJoNO/99M1g4MGsfE5eSseFaLU1P1gzXf7z+se6+xX6PJdV/dkRzxeHpLou/Z7v9lGwnRmoqyCQYovecOsR91p+a9FwbBoqRmpE23Fxzc48SVJIuzQwsKK6OvE5mIxc62TyXBfMwqNiker9oZvEuv3Oe2T4OV5Vc0mw9xvNGCeoWSNG3Vzs4DeRc91uCsFa5hQRtsLgLujp2SDPI5gEGxAvsULgtWJA0A5nLsO9TM1K5nWi628svmTvLT8v/C2ias1SUM7M43CRvunqu7jsPkoXG8TezJ8UjT+AkfqFx5qepcTa64vZwyIORB4EHMKOxevGYuk9BHUpFRid/Zf+h30XPDO+Z4jaxwLiGguyF3Gw571NT1IK3aPRGaqiAGTTru5BmY/m1R3qtvJT0SlgEbGxt9VjQ0djRYLciKcjCIiAIiIDXNE17S1wu1wsRxBVIn0cna8tjqbAHY9t8t2YI3K9qMxeie8B0RAeNx2OHC+48FvCVnmaTTayK1Ho5Ve1Vx2/hu/3rW/RxgN5ZXS29k2az9I295K7uirf8g/rj/3LWaSrd/gEcy6O3k5J2YhdamipqgwarRyAHkAFvw/Rp8zhJU9VgzEd+s78R9kctvYpfBsDER6SSzpf5Wfh581NqJIkbNUMLWNDWNDWjYAAAOwBbURbGAiIgCIiAIiIAiIgCIiAIiIAiIgIbEcFa93SRWjlBve3Vf+MD+rb2pTVTmnVkbqv4HfzB3hTC0VNM2QWcL8DsIPEHcsqRixw19NFMLvHWAyeDZ47HDdyOSouN0MrXHUn1h95mfeQQPJW+toahoIjtINxuGu7wcvNVuowmrcc4HeLfjdazzWRlFXfHMNsg7mhem6H4SKeEOdnLIA5xO0D2W8ss+0lQeD6LSPeHVDdSNpvqkgufbYMiQBxV6utIp7zZ2MkWN0utzUyRYogMkRFkBERAEREAREQBERAEREAREQBERAEREAREQBEXxACvl19K+FYAuvl0K+FYM2Pt0usSV8uhkzul1ruvt0BndAsAswsmD6iXRAZIiLJgIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiLAPi+IiGT4ViURDB8KwRFg2C+hEQGYX1EWTAREQH//Z" alt="Smiley">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Cfoa8tUve9bmDh-QaqLxJtbajt_BHntQeA&usqp=CAU" alt="Smiley2">
+                </p>
             </section>
         </main>
-        <footer>
-            <p>Dijar Zejnullahi, TE22A</p>
+        <footer> <!--Sidfot-->
+            <p>Dijar Zejnullahi, TE22A</p> <!--Stycke-->
         </footer>
     </div>
 </body>
