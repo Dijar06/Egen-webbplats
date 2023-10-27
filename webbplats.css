@@ -2,19 +2,19 @@ body{
     background-color: black; /*Bakgrundsfärg*/
 }
 
-.wrapper{
-    display: grid; 
-    grid-template-rows: 100px 70px auto 50px; /*4 rader*/
-    grid-template-areas:
+.wrapper{ /*Klass*/
+    display: grid; /*Gridlayout*/
+    grid-template-rows: 100px 70px auto 50px; /*4 rader, header är 100 pixlar, nav är 70 pixlar, main är auto vilket anpassar sig till innehållet, footer är 50 pixlar*/
+    grid-template-areas: /*Ordning på sidan, toppen är header och botten är footer*/
     "header"
     "nav" 
     "main"
     "footer";
-    height: 97vh;
+    height: 97vh; /*Höjd blir 97% av dokumentfönstret*/
 }
 
 header{
-    grid-area: header;
+    grid-area: header; /*Gridområde*/
     background-color: green;
 }
 
@@ -23,15 +23,15 @@ nav{
     background-color: white;
 }
 
-nav > ul {
+nav > ul { /*Elementet ul direkt inuti elementet nav*/
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; /*Tre kolumner med lika stor bred*/
 }
 
 nav li {
-    text-align: center;
-    list-style-type: none;
-    font-size: 30px
+    text-align: center; /*Texten blir centrerad*/
+    list-style-type: none; /*Punkterna i listan tas bort, ingen stil*/
+    font-size: 30px; /*Textstorlek 30 pixlar*/
 }
 
 main{
@@ -46,6 +46,21 @@ footer{
     background-color: white;
 }
 
+table,td,th{
+    height:30px; /*Höjden blir 30 pixlar*/
+    width:400px; /*Bredden blir 400 pixlar*/
+    font-size: 20px;
+    border: 1px solid white; /*En vit kant med tjockleken 1 pixel runt elementen*/
+    border-collapse: collapse; /*Linjerna i border går ihop till en enda*/
+}
+
+table{
+    margin: auto; /*Marginal runt tabelllen anpassas automatiskt, vilket gör att tabellen centreras i sin sektion*/
+}
+
+td{
+    text-align: right; /*Texten i tabellceller blir högerjusterad*/
+}
 
 tr:nth-child(even){ /*Zebrastriping, varje jämn tabellrad får färgen blå*/
     background-color: aquamarine;
@@ -55,43 +70,28 @@ tr:nth-child(odd){ /*Zebrastriping, varje udda tabellrad får färgen grå*/
     background-color: grey;
 }
 
-td{
-    text-align: right;
-}
-
-h1, h2{
+h1, h2{ /*Gruppselektor*/
     text-align: center;
 }
 
-li a{
+li > a{ 
     color:green;
 }
 
-h2 a{
+h2 > a{
     color: black;
 }
 
-table,td,th{
-    height:30px;
-    width:400px;
-    font-size: 20px;
-    border: 1px solid white;
-    border-collapse: collapse;
-}
-table{
-    margin: auto;
+p > img{
+    max-width: 100%; /*Max 100% i förhållande till containern*/
+    height: 200px; /*Höjden blir 200 pixlar*/
 }
 
-p img{
+a > img{
     max-width: 100%;
-    height: 200px;
+    height: 640px;
 }
 
-a img{
-    max-width: 100%;
-    height: 650px
-}
-
-caption{
-    margin: 12px;
+caption{ /*Tabellrubrik*/
+    margin: 12px; /*Marginal runt texten 12 pixlar*/
 }
